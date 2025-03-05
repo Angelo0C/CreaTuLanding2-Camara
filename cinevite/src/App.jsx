@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Navbars from "./components/Navbars";
+import Navbarss from "./components/Navbarss";
 import MovieList from "./components/MovieList";
 import MovieDetail from "./components/MovieDetail";
 import CategoryList from "./components/CategoryList";
@@ -10,7 +10,7 @@ import "./App.css";
 function App() {
   return (
     <div className="app-container">
-      <NavBar />
+      <Navbarss />
       <h1 className="title">Bienvenido a CineVite 🎬</h1>
       <Routes>
         <Route path="/" element={<MovieList />} />

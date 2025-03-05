@@ -2,12 +2,16 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import "./MovieList.css";
 
+
 function CategoryList() {
   const { categoryId } = useParams();
   const movies = [
-    { id: 1, title: "Película 1", img: "../assets/The-NoteBook.jpg", category: "drama" },
-    { id: 2, title: "Película 2", img: "/assets/pelicula2.jpg", category: "accion" },
-    { id: 3, title: "Película 3", img: "/assets/pelicula3.jpg", category: "comedia" },
+    { id: 1, title: "NoteBook", img: "../assets/The-NoteBook.jpg", category: "drama" },
+    { id: 2, title: "Dune 2", img: "../assets/Dune-2.jpg", category: "accion" },
+    { id: 3, title: "Flow", img: "../assets/Flow.jpg", category: "comedia" },
+    { id: 4, title: "Her", img: "../assets/Her.jpg", category: "drama" },
+    { id: 5, title: "The Brutalist", img: "../assets/The_Brutalist.jpg", category: "drama" },
+    { id: 6, title: "The Monkey", img: "../assets/The_Monkey.jpg", category: "comedia" },
   ];
 
   const filteredMovies = movies.filter(movie => movie.category === categoryId);

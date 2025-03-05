@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 
-function NavBar() {
+function Navbarss() {
   return (
     <nav className="navbar">
       <ul>
@@ -18,4 +18,4 @@ function NavBar() {
   );
 }
 
-export default NavBars;
+export default Navbarss;
