@@ -1,0 +1,83 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.2.4
+2 info using node@v20.11.1
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 4ms
+6 timing config:load:builtin Completed in 5ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\Users\Usuario\Desktop\Coderhouse\react js\Preentrega-2\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 2ms
+11 timing config:load:file:C:\Users\Usuario\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:C:\Users\Usuario\AppData\Roaming\npm\etc\npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 15ms
+17 timing npm:load:configload Completed in 15ms
+18 timing config:load:flatten Completed in 2ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm create vite@latest cinevite react
+22 verbose argv "create" "vite@latest" "cinevite" "--template" "react"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:C:\Users\Usuario\Desktop\Coderhouse\react js\Preentrega-2\tmpnodejsnpm-cache\_logs\2025-03-04T22_56_46_062Z-
+26 verbose logfile C:\Users\Usuario\Desktop\Coderhouse\react js\Preentrega-2\tmpnodejsnpm-cache\_logs\2025-03-04T22_56_46_062Z-debug-0.log
+27 timing npm:load:logFile Completed in 13ms
+28 timing npm:load:timers Completed in 1ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 61ms
+31 silly logfile done cleaning log files
+32 timing arborist:ctor Completed in 1ms
+33 http fetch GET 200 https://registry.npmjs.org/create-vite 206ms (cache miss)
+34 timing arborist:ctor Completed in 0ms
+35 timing arborist:ctor Completed in 0ms
+36 timing idealTree:init Completed in 10ms
+37 timing idealTree:userRequests Completed in 2ms
+38 silly idealTree buildDeps
+39 silly fetch manifest create-vite@6.3.1
+40 http fetch GET 200 https://registry.npmjs.org/create-vite 18ms (cache hit)
+41 silly placeDep ROOT create-vite@6.3.1 OK for:  want: 6.3.1
+42 timing idealTree:#root Completed in 26ms
+43 timing idealTree:node_modules/create-vite Completed in 0ms
+44 timing idealTree:buildDeps Completed in 27ms
+45 timing idealTree:fixDepFlags Completed in 1ms
+46 timing idealTree Completed in 43ms
+47 timing reify:loadTrees Completed in 44ms
+48 timing reify:diffTrees Completed in 1ms
+49 silly reify moves {}
+50 timing reify:retireShallow Completed in 1ms
+51 timing reify:createSparse Completed in 7ms
+52 timing reify:loadBundles Completed in 0ms
+53 silly audit bulk request { 'create-vite': [ '6.3.1' ] }
+54 silly tarball no local data for create-vite@https://registry.npmjs.org/create-vite/-/create-vite-6.3.1.tgz. Extracting by manifest.
+55 http fetch GET 200 https://registry.npmjs.org/npm 383ms (cache miss)
+56 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 286ms
+57 timing auditReport:getReport Completed in 288ms
+58 silly audit report {}
+59 timing auditReport:init Completed in 0ms
+60 timing reify:audit Completed in 289ms
+61 http fetch GET 200 https://registry.npmjs.org/create-vite/-/create-vite-6.3.1.tgz 390ms (cache miss)
+62 timing reifyNode:node_modules/create-vite Completed in 399ms
+63 timing reify:unpack Completed in 399ms
+64 timing reify:unretire Completed in 0ms
+65 timing build:queue Completed in 1ms
+66 timing build:link:node_modules/create-vite Completed in 12ms
+67 timing build:link Completed in 13ms
+68 timing build:deps Completed in 15ms
+69 timing build Completed in 16ms
+70 timing reify:build Completed in 16ms
+71 timing reify:trash Completed in 0ms
+72 timing reify:save Completed in 8ms
+73 timing reify Completed in 489ms
+74 timing command:create Completed in 5112ms
+75 notice
+75 notice New [31mmajor[39m version of npm available! [31m10.2.4[39m -> [32m11.1.0[39m
+75 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v11.1.0[39m
+75 notice Run [32mnpm install -g npm@11.1.0[39m to update!
+75 notice
+76 verbose exit 0
+77 timing npm Completed in 5594ms
+78 info ok
